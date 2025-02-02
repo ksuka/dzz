@@ -20,3 +20,40 @@ if (age < 18) {
 else{
     alert("Cовершеннолетний")
 }
+
+
+//2
+
+const first = prompt(`Введите первое число`);
+const second = prompt(`Введите второе число`);
+
+if (first > second){
+    console.log(`Первое число больше`)
+}
+if (first < second){
+    console.log(`Второе число больше`)
+}
+else{
+    console.log(`Числа равны`)
+}
+
+//3
+
+const number = prompt(`Введите число`);
+if (number % 2 === 0) {
+    console.log("Это чётное число");
+} 
+else {
+    console.log("Это нечётное число");
+}
+
+//6
+
+const year = prompt (`Введите год`);
+
+if(year%4 ===0){
+    console.log("Это високосный год");
+}
+if(year%100 === 0 && year%400 === 0){
+    console.log("Это високосный год");
+}
